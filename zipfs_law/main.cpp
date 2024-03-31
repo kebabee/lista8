@@ -1,3 +1,19 @@
+/*
+Napisz program zliczający liczbę wystąpień danego słowa w pliku tekstowym. Program powinien wypisać dane
+w trzech kolumnach: w pierwszej kolejną liczbę naturalną (= numer słowa), w drugiej - liczbę wystąpień danego
+słowa, w trzeciej – dane słowo, w kolejności od słowa o największej liczbie wystąpień do słowa o najmniejszej
+liczbie wystąpień. W przypadku słów o identycznej liczbie wystąpień słowa można wyświetlić w kolejności
+dowolnej. Jako plik wejściowy (źródło słów) zastosuj tekst pobrany z serwisu Wolne Lektury wyznaczony na
+podstawie ostatniej cyfry indeksu:
+    a) 0 lub 1: Jan Chryzostom Pasek, „Pamiętniki”
+    b) 2 lub 3: Stefan Żeromski, „Przedwiośnie”
+    c) 4 lub 5: Bolesław Prus, „Faraon” (trzy tomy)
+    d) 6 lub 7: Bolesław Prus, „Lalka” (oba tomy)
+    e) 8 lub 9: Karol Darwin, „O powstawaniu gatunków drogą doboru naturalnego”
+W oparciu o powyższe dane sprawdź, czy słowa z danej lektury spełniają prawo Zipfa
+(https://en.wikipedia.org/wiki/Zipf%27s_law)
+*/
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
