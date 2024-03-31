@@ -12,8 +12,6 @@ konstruktor przenoszący oraz przenoszący operator= z argumentami typu r-value 
 
 Metoda emplace_back() mza za zadanie przyjmowanie argumentów mogących stworzyć obiekty typu T, gdzie T to typ elementów przechowywanych przez dany wektor. 
 Wykorzystuje parameter packi i perfect forwarding, aby z przekazanych argumentów bez zbędnej kopii stworzyć w wektorze nowy, dodany na koniec obiekt typu T.
-
-
 */
 
 #include<iostream>
